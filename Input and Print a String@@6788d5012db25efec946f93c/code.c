@@ -8,6 +8,6 @@ char* welcome() {
 int main() {
   char str[100];
   gets(str);
-  print(You entered: "%s",str);
+  printf(You entered: "%s",str);
     return 0;
 }
