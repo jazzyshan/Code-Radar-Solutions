@@ -6,6 +6,6 @@ int main() {
     scanf("%s",&a);
     scanf("%s",&b);
     c=a+b
-    printf("You entered: %s",a+b);
+    printf("You entered: %s and %s",a,b);
     return 0;
 }
