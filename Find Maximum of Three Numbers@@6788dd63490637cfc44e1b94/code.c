@@ -7,10 +7,11 @@ int main() {
         printf("%d",a);
     }
     
-      if((b>a)&&(b>c)){
+    if((b>a)&&(b>c)){
         printf("%d",b);
     }
-      if((c>a)&&(c>)){
+    
+    if((c>a)&&(c>)){
         printf("%d",c);
     }
   
