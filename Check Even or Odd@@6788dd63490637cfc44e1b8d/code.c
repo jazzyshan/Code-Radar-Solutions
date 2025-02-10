@@ -8,7 +8,7 @@ int main() {
         printf("even");
     }
     else{
-        printf("odd")
+        printf("odd");
     }
 
     return 0;
