@@ -10,8 +10,8 @@ int main() {
     if((b>a)&&(b>c)){
         printf("%d",b);
     }
-    
-    if((c>a)&&(c>)){
+
+    if((c>a)&&(c>b)){
         printf("%d",c);
     }
   
