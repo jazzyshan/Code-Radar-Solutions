@@ -5,7 +5,7 @@ int main()
   char ch;
   scanf("%c",&ch);
   if(isdigit(ch)){
-    printf("Digit")
+    printf("Digit");
   }
   else if(ch>=65 && ch<=90 || ch>=97 && ch<=122){
     char lower_ch = islower(ch)
