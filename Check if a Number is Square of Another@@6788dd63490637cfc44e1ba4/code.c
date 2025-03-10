@@ -4,8 +4,8 @@ int main(){
  
    int b,a,sqr;
    scanf("%d%d",&a,&b);
-   sqr=a*a;
-   if(sqr==b){
+   sqr=b*b;
+   if(sqr==a){
     printf("Yes");
    }
    else{
