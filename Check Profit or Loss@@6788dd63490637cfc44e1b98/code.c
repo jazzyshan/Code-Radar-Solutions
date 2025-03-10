@@ -10,7 +10,7 @@ else if(cost==sell){
     printf("No Profit No Loss");
 }
 else {
-    printf("Profit")
+    printf("Profit");
 }
 
 
