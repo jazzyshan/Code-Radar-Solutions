@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
  
-   int a,count=0;
+   int ,i,a,count=0;
    scanf("%d",&a);
     if(a>1){
-        for(int i=1,i<=n,i++ ){
+        for( i=1,i<=n,i++ ){
             if(a%i==0){
                 count++;
             }
