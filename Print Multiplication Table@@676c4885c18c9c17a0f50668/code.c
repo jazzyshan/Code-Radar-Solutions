@@ -6,7 +6,7 @@ int main(){
   scanf("%d ",&num);
   for(i=1;i<=num;i++){
      multi=num*i;
-     printf("%d X %d = %d\n",num,i,multi);
+     printf("%d x %d = %d\n",num,i,multi);
 
 
   } 
