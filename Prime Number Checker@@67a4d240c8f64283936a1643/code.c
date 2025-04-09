@@ -10,7 +10,7 @@ int isPrime(int num){
        return printf("1");
     }
     else{
-       return printf("0");
+      printf("0");
     }
 
 }
