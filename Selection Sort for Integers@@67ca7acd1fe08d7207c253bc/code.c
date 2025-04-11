@@ -1,4 +1,4 @@
-int swap(int *a,int *b){
+void swap(int *a,int *b){
     int temp;
     temp=*a;
     *a=*b;
@@ -7,7 +7,7 @@ int swap(int *a,int *b){
 
 
 
-int selectionSort(int arr[100],int n){
+void selectionSort(int arr[100],int n){
    
    int i,j,min_value;
    for(i=0 ; i < n-1 ; i++){
@@ -21,7 +21,7 @@ int selectionSort(int arr[100],int n){
 }
 
 int printArray(int arr[100],int n){
-    for(int i=0;i <= n;i++){
+    for(int i=0;i < n;i++){
         printf("%d",&arr[i]);
     }
 }
@@ -33,4 +33,4 @@ int printArray(int arr[100],int n){
 
 
 
-\
+
