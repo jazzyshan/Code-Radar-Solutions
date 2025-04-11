@@ -7,7 +7,7 @@ int swap(int *a,int *b){
 
 
 
-int selectionSort(int arr[],int n){
+int selectionSort(int arr[100],int n){
    
    int i,j,min_value;
    for(i=0 ; i < n-1 ; i++){
@@ -20,7 +20,7 @@ int selectionSort(int arr[],int n){
    }
 }
 
-int printArray(int arr[],int n){
+int printArray(int arr[100],int n){
     for(int i=0;i <= n;i++){
         printf("%d",&arr[i]);
     }
