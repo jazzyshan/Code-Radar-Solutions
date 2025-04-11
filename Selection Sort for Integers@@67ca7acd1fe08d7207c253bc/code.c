@@ -7,7 +7,7 @@ int swap(int *a,int *b){
 
 
 
-int selectionSort(arr,n){
+int selectionSort(int arr[],int n){
    
    int i,j,min_value;
    for(i=0 ; i < n-1 ; i++){
